@@ -32,7 +32,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color:red;
-    background-color:burlywood ;
+    background-color:black ;
 }
 .del{
     margin-left: 6rem;
@@ -56,14 +56,14 @@ span{
     padding:10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color:red;
     display:inline;
     margin: 30px 0px;
     border-radius:15px;
 }
 .del a:hover{
     color: black;
-    background-color: white;
+    background-color: red;
 }
 .me{
     height: 21rem;
