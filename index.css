@@ -9,6 +9,9 @@
     height: 100vh;
     background: white;
 }
+/* .hero a{
+    background:linear-gradient(skyblue,lightblue)
+} */
 nav{
     display: flex;
     width:84%;
@@ -32,13 +35,13 @@ nav ul li a:hover{
     background-color:burlywood ;
 }
 .del{
-    margin-left: 8%;
-    margin-top: 13%;
+    margin-left: 6rem;
+    margin-top: 9rem;
 }
 .del h1{
-    font-size: 45px;
+    font-size: 4rem;
     color:grey;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 span{
     color:gold;
@@ -63,12 +66,31 @@ span{
     background-color: white;
 }
 .me{
-    height: 60%;
-    width:35%;
+    height: 21rem;
+    width:20rem;
     position: absolute;
-    right: -26px;
-    margin-right: 85px;
-    bottom: 0;
-    left:45%;
+    right: 6rem;
+    /* margin-right: 78px; */
+    bottom: 3rem;
+    left:46rem;
+}
+
+footer{
+    margin: auto;
+    width: 13rem;
+    display: block;
+    height: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+fieldset{
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+    font-family:fantasy;
+    width: 0;
+    height: 4rem;
+    border: 2px double blue;
 }
 
